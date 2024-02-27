@@ -1,0 +1,93 @@
+
+.vmMedVerticalMenu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.vmMedHeaderContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: #006285;
+    height: 5rem;
+}
+
+.vmMedSideMenu {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #006285;
+    color: #fcfcfc;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+}
+
+.vmMedLogo {
+    height: auto;
+    display: block;
+    width: 200px;
+    transform: scale(0.45);
+    padding-top: 25px;
+}
+
+.vmMedPatientInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: auto;
+}
+
+.vmMedPatientName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fcfcfc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+
+.vmMedClientCode {
+    font-size: 0.875rem;
+    color: #fcfcfc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 10px;
+}
+
+.vmMedSideMenu nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vmMedSideMenu nav li {
+    margin-bottom: 1rem;
+    border: 1px solid #fcfcfc;
+    border-radius: 5px;
+}
+
+.vmMedSideMenu nav a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fcfcfc;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.vmMedSideMenu nav a:hover,
+.vmMedSideMenu nav a:active,
+.vmMedSideMenu nav a.active {
+    color: white;
+    background-color: #004266;
+}

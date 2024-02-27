@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import SiteBeforeLogIn from "./Pages/beforeLogIn/SiteBeforeLogIn";
+import SiteDuringLogIn from "./Pages/duringLogIn/SiteDuringLogIn";
+import SiteAfterLogIn from "./Pages/afterLogIn/SiteAfterLogIn";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <SiteBeforeLogIn/>
+            <SiteDuringLogIn/>
+            <SiteAfterLogIn/>
+        </div>
+    );
 }
 
 export default App;

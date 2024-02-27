@@ -1,0 +1,11 @@
+
+
+.newPageContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.pageContent {
+    flex-grow: 1;
+    padding: 20px;
+}

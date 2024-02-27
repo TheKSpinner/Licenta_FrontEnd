@@ -1,0 +1,76 @@
+/* ProgrameazaStyles.css */
+
+/* Shared Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    font-size: 1.5rem;
+    color: #070005;
+}
+
+/* SelectMedic Styles */
+.selectMedicSection {
+    margin-bottom: 20px;
+}
+
+/* SelectService Styles */
+.selectServiceSection {
+    margin-bottom: 20px;
+}
+
+/* SelectMeetingType Styles */
+.selectMeetingTypeSection {
+    margin-bottom: 20px;
+}
+
+.meetingTypeOptions {
+    display: flex;
+    gap: 10px;
+}
+
+/* SelectDateTime Styles */
+.selectDateTimeSection {
+    margin-bottom: 20px;
+}
+
+/* RequestMeeting Styles */
+.requestMeetingSection {
+    margin-bottom: 20px;
+}
+
+.requestMeetingButton {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.requestMeetingButton:hover {
+    background-color: #0056b3;
+}
+
+/* DateTimePicker Styles (Adjust as needed) */
+select,
+input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+select:focus,
+input:focus {
+    border-color: #007BFF;
+}

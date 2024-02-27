@@ -1,0 +1,111 @@
+.labResultsContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.labResultsTitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+.titleBackground {
+    background-color: #006285; /* Same as the button background color */
+    padding: 4px 8px; /* Adjust as needed */
+    border-radius: 4px; /* Adjust as needed */
+    display: inline-block;
+}
+
+.labResultItem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.labResultTitle {
+    font-size: 1.2rem;
+    color: #050005;
+}
+
+.labResultDate {
+    color: #666;
+}
+
+.showHideButton {
+    background-color: #006285;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.detailsSection {
+    margin-top: 10px;
+}
+
+.detailsText {
+    font-size: 1rem;
+}
+
+.attachmentsSection {
+    margin-top: 10px;
+}
+
+.attachmentsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.attachmentItem {
+    margin-top: 8px;
+}
+
+.attachmentLink {
+    text-decoration: none;
+    color: #006285;
+    font-weight: bold;
+}
+
+.attachmentLink:hover {
+    text-decoration: underline;
+}
+.titleBackground {
+    background-color: #006285; /* Same as the button background color */
+    padding: 4px 8px; /* Adjust as needed */
+    border-radius: 4px; /* Adjust as needed */
+    display: inline-block;
+}
+.closeButton {
+    margin-top: 20px;
+    background-color: #006285;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.search {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+    margin-bottom: 10px;
+}

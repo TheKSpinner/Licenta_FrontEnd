@@ -1,0 +1,51 @@
+.medicalInfo {
+    display: flex;
+}
+
+.imagebox {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    align-items: center;
+
+
+}
+
+.image  {
+    width: 100%;  /* Set the width of the image to 100% of the container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    border: 2px solid #ddd;
+}
+
+
+.nameAndRating {
+    display: flex; /* Use flex to align name and rating on the same line */
+    align-items: center;
+}
+
+.text {
+    padding-left: 1rem;
+}
+
+.name {
+    text-align: left ;
+}
+
+.rating {
+    font-size: 1rem;
+    color: #050005;
+    margin-left: 20px;
+}
+
+.content {
+    font-size: 1.25rem;
+    text-align: left;
+    margin: 0;
+}
+
+.star {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 10px;
+}
+
