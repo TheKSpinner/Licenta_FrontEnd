@@ -1,23 +1,35 @@
-.labResultsContainer {
+.consultatiiContainer {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.labResultsTitle {
+.consultatiiTitle {
     font-size: 1.5rem;
     margin-bottom: 20px;
     color: #ff0000;
-}
-
-.titleBackground {
     background-color: #006285; /* Same as the button background color */
     padding: 4px 8px; /* Adjust as needed */
     border-radius: 4px; /* Adjust as needed */
     display: inline-block;
 }
 
-.labResultItem {
+.closeButton {
+    margin-top: 20px;
+    background-color: #006285;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background-color: #004966;
+}
+
+
+
+.consultationItem {
     border: 1px solid #ccc;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -29,16 +41,16 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.labResultTitle {
+.consultationDoctor {
     font-size: 1.2rem;
-    color: #050005;
 }
 
-.labResultDate {
+.consultationDate {
     color: #666;
 }
 
 .showHideButton {
+    margin-top: 20px;
     background-color: #006285;
     color: white;
     border: none;
@@ -46,12 +58,8 @@
     cursor: pointer;
 }
 
-.detailsSection {
-    margin-top: 10px;
-}
-
-.detailsText {
-    font-size: 1rem;
+.showHideButton:hover {
+    background-color: #004966;
 }
 
 .attachmentsSection {
@@ -76,20 +84,6 @@
 
 .attachmentLink:hover {
     text-decoration: underline;
-}
-.titleBackground {
-    background-color: #006285; /* Same as the button background color */
-    padding: 4px 8px; /* Adjust as needed */
-    border-radius: 4px; /* Adjust as needed */
-    display: inline-block;
-}
-.closeButton {
-    margin-top: 20px;
-    background-color: #006285;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
 }
 
 .searchContainer {

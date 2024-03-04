@@ -1,10 +1,10 @@
 import {Route, Routes} from "react-router-dom";
 import LayoutBeforeLogIn from "./Layout_Before_LogIn/Layout_Before_LogIn";
-import Home from "./Home/Home";
-import AllMedics from "./Medics/AllMedics";
+import Home from "./Pages/Home/Home";
+import AllMedics from "./Pages/Medics/AllMedics";
 import AllServices from "./Services/AllServices";
-import OpeningHours from "./OpeningHours/OpeningHours";
-import Contact from "./Contact/Contact";
+import OpeningHours from "./Pages/OpeningHours/OpeningHours";
+import Contact from "./Pages/Contact/Contact";
 
 function SiteBeforeLogIn(){
     return (

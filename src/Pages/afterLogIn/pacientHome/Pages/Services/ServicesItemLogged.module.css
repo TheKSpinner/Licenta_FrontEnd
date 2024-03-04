@@ -1,0 +1,22 @@
+/* ServicesItemLogged.module.css */
+
+.serviceItem {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px; /* Set a fixed width */
+    margin: 0 auto 20px; /* Adjust the margin to include bottom margin */
+}
+
+
+.header {
+    font-size: 1.5rem;
+    color: #006285;
+    margin-bottom: 10px;
+}
+
+.body p {
+    color: #444;
+    margin: 5px 0; /* Adjust the margin between each item */
+}

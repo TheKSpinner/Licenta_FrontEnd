@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './VerticalMenuPacient.module.css'
 import logo from '../../../../../Misc/logo.png'
+import Contact from "../../../../beforeLogIn/Pages/Contact/Contact";
 
 function VerticalMenuPacient({ patientName, clientCode }) {
     return (
@@ -22,6 +23,9 @@ function VerticalMenuPacient({ patientName, clientCode }) {
                             <li><Link to={'/consultatii'}>Consultatii</Link></li>
                             <li><Link to={'/programari'}>Programari active</Link></li>
                             <li><Link to={'/programeaza'}>Fa o programare</Link></li>
+                            <li><Link to={'/ContactLoggedIn'}>Contact</Link></li>
+                            <li><Link to={'/MediciLoggedIn'}>Medici</Link></li>
+                            <li><Link to={'/ServiciiLoggedIn'}>Servicii</Link></li>
                         </ul>
                     </nav>
                 </div>

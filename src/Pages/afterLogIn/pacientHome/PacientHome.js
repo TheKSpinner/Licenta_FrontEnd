@@ -5,6 +5,9 @@ import Consultatii from "./Pages/Consultatii/Consultatii";
 import Programeaza from './Pages/Fa o programare/Programeaza'
 import ProgramariActive from './Pages/Programari Active/ProgramariActive'
 import Rezultate from './Pages/Rezultate/Rezultate'
+import ContactLoggedIn from "./Pages/Contact-logged-in/ContactLogged";
+import AllMedicsLogged from "./Pages/Medics/AllMedicsLogged";
+import AllServicesLogged from "./Pages/Services/AllServicesLogged";
 
 function PacientHome(){
     return(
@@ -47,6 +50,24 @@ function PacientHome(){
                             //TODO:
                             <Programeaza/>
 
+                    }
+                />
+                <Route
+                    path="ContactLoggedIn"
+                    element={
+                        <ContactLoggedIn/>
+                    }
+                />
+                <Route
+                    path="MediciLoggedIn"
+                    element={
+                        <AllMedicsLogged/>
+                    }
+                />
+                <Route
+                    path="ServiciiLoggedIn"
+                    element={
+                        <AllServicesLogged/>
                     }
                 />
             </Routes>

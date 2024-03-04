@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MedicsList from '../../../../beforeLogIn/Medics/MedicsList'; // Import the MedicsList component
+import MedicsList from '../../../../beforeLogIn/Pages/Medics/MedicsList'; // Import the MedicsList component
 import ServicesList from '../../../../beforeLogIn/Services/ServicesList';
 import classes from '../../../../beforeLogIn/Services/AllServices.module.css';
 

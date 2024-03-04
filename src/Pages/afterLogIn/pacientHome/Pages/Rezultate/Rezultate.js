@@ -1,32 +1,24 @@
-// LabResults.js
-
 import React, { useState } from 'react';
 import classes from './Rezultate.module.css'; // Import the CSS module
 
 const LabResult = ({ labResultData }) => {
-    const [showDetails, setShowDetails] = useState(false);
+    const [showAttachments, setShowAttachments] = useState(false);
 
-    const toggleDetails = () => {
-        setShowDetails(!showDetails);
+    const toggleAttachments = () => {
+        setShowAttachments(!showAttachments);
     };
 
     return (
-        <div className={classes.labResultItem}>
+        <div className={classes.consultationItem}>
             <div>
-                <h3 className={classes.labResultTitle}>{labResultData.title}</h3>
-                <p className={classes.labResultDate}>Result Date: {labResultData.date}</p>
-                <button className={classes.showHideButton} onClick={toggleDetails}>
-                    {showDetails ? 'Hide Details' : 'Show Details'}
+                <h3 className={classes.consultationDoctor}>{labResultData.title}</h3>
+                <p className={classes.consultationDate}>Result Date: {labResultData.date}</p>
+                <button  className={classes.showHideButton}  onClick={toggleAttachments}>
+                    {showAttachments ? 'Hide Attachments' : 'Show Attachments'}
                 </button>
             </div>
 
-            {showDetails && (
-                <div className={classes.detailsSection}>
-                    <p className={classes.detailsText}>{labResultData.details}</p>
-                </div>
-            )}
-
-            {labResultData.attachments && labResultData.attachments.length > 0 && (
+            {showAttachments && (
                 <div className={classes.attachmentsSection}>
                     <h4>Attachments:</h4>
                     <ul className={classes.attachmentsList}>
@@ -54,7 +46,6 @@ const LabResults = () => {
         {
             title: 'Blood Test',
             date: '2022-01-15',
-            details: 'Blood test results: normal.',
             attachments: [
                 { label: 'Lab Report', path: 'path/to/report.pdf' },
             ],
@@ -69,10 +60,8 @@ const LabResults = () => {
     );
 
     return (
-        <div className={classes.labResultsContainer}>
-            <h2 className={`${classes.labResultsTitle} ${classes.titleBackground}`}>
-                Lab Results
-            </h2>
+        <div className={classes.consultatiiContainer}>
+            <h2 className={classes.consultatiiTitle}>Lab Results</h2>
 
             <div className={classes.searchContainer}>
                 <input

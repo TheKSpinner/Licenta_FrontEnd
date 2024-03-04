@@ -1,0 +1,57 @@
+.closeButton {
+    background-color: #006285;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background-color: #004966;
+}
+.header {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff0000;
+    background-color: #006285;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 0 auto 20px; /* Center horizontally and add margin at the bottom */
+    display: table; /* Ensure it behaves like a block-level element */
+}
+
+
+.searchContainer {
+    display: flex;
+    justify-content: center; /* Center align the search box */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.search {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.search:focus {
+    border-color: #007BFF;
+}
+
+.title {
+    background-color: #006285;
+    border-radius: 8px;
+    font-size: 2rem;
+    color: #FE0000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin: 0 auto; /* Center the location card */
+    display: inline-block; /* Ensure location card takes minimum width */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}

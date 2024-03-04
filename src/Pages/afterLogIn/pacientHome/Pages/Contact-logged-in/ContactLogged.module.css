@@ -1,0 +1,57 @@
+/* ContactLogged.module.css */
+
+.contactContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contactTitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+.titleBackground {
+    background-color: #006285;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.contactItem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Maximum width for the card */
+    margin: 0 auto; /* Center the card */
+    overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+    max-height: 300px; /* Set maximum height for the card content */
+}
+
+.contactHeader {
+    font-size: 1.2rem;
+    color: #006285;
+}
+
+.contactBody {
+    color: #444;
+    margin-top: 8px;
+    white-space: pre-line; /* Render line breaks */
+}
+
+.closeButton {
+    margin-top: 20px;
+    background-color: #006285;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background-color: #004966;
+}

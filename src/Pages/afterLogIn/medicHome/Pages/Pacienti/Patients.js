@@ -1,5 +1,3 @@
-// Patients.js
-
 import React, { useState } from 'react';
 import classes from './Patients.module.css'; // Import the CSS module
 
@@ -47,7 +45,7 @@ const PatientsList = ({ patients }) => {
     );
 };
 
-const Patients = () => {
+const Patients = ({ addPatientData }) => {
     const patientsData = [
         {
             name: 'John Doe',
@@ -87,5 +85,6 @@ const Patients = () => {
         </div>
     );
 };
+
 
 export default Patients;
